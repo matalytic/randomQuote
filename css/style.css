@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+ padding: 0;
+}
+
+body {
+font-family: 'Oswald', sans-serif;
+color: #E0E0E0;
+}
+
+.quote-container {
+	margin: 10% auto auto auto;
+	width: 500px;
+	height: 300px;
+	text-align: center;
+	background-color: #4DB6AC;
+	border-radius: 10px;
+	position:relative;
+}
+
+#new-quote {
+	background-color: #b3cbcb; 
+	border: none;
+	color: white;
+	padding: 12px 10px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: 'Oswald', sans-serif;
+	bottom: 5px;
+	left: 5px;
+	position:absolute;
+}
+
+#tweet {
+	background-color: #b3cbcb; 
+	border: none;
+	color: white;
+	padding: 12px 10px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: 'Oswald', sans-serif;
+	bottom: 5px;
+	right: 5px;
+	position:absolute;
+}
+
+#quote-content, #quote-author  {
+	font-size: 18px;
+}
+a {
+	cursor: default;
+}
